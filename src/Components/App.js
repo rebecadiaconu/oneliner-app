@@ -16,7 +16,7 @@ function App() {
       title: Storage[Storage.findIndex(x => x.link === node)].title,
       keywords: Storage[Storage.findIndex(x => x.link === node)].keywords
     }
-  }).slice(0, -1));
+  }));
 
   const handleClick = (index) => {
     const nodes = Storage[index].ramuri.map(node => {
@@ -26,7 +26,7 @@ function App() {
         title: Storage[Storage.findIndex(x => x.link === node)].title,
         keywords: Storage[Storage.findIndex(x => x.link === node)].keywords
       }
-    }).slice(0, -1);
+    });
 
     setRootIndex(index);
     setRootNode(Storage[index]);
@@ -42,10 +42,12 @@ function App() {
     <div className="search-icon">
       <img src={voiceImage} />
     </div>
-      <h1 id="app-title">OneLiner</h1>
+      <h1 id="app-title">WebMap</h1>
       <div className="graph-container">
         <RootNode node={rootNode} buttonClick={buttonClick}/>
-        <ChildNode nodes={neighbors} handleClick={handleClick} buttonClick={buttonClick} />
+        {
+          neighbors.length == 0 ? <h1>Our test data ends up here. Hope you enjoyed our product!</h1> : <ChildNode nodes={neighbors} handleClick={handleClick} buttonClick={buttonClick} />
+        }
       </div>
     </div>
   );
