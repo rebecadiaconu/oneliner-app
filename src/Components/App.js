@@ -1,35 +1,35 @@
 import { useState } from "react";
 import RootNode from "./RootNode";
 import ChildNode from "./ChildNode";
-import data from "../data";
+import Storage from "./Storage.js";
 import '../css/App.css';
 import voiceImage from "../Content/voice.png";
 
 function App() {
 
   const [rootIndex, setRootIndex] = useState(0);
-  const [rootNode, setRootNode] = useState(data[rootIndex]);
+  const [rootNode, setRootNode] = useState(Storage[rootIndex]);
   const [neighbors, setNeighbors] = useState(rootNode.ramuri.map(node => {
     return {
-      id: data.findIndex(x => x.link === node),
+      id: Storage.findIndex(x => x.link === node),
       link: node,
-      title: data[data.findIndex(x => x.link === node)].title,
-      keywords: data[data.findIndex(x => x.link === node)].keywords
+      title: Storage[Storage.findIndex(x => x.link === node)].title,
+      keywords: Storage[Storage.findIndex(x => x.link === node)].keywords
     }
   }).slice(0, -1));
 
   const handleClick = (index) => {
-    const nodes = data[index].ramuri.map(node => {
+    const nodes = Storage[index].ramuri.map(node => {
       return {
-        id: data.findIndex(x => x.link === node),
+        id: Storage.findIndex(x => x.link === node),
         link: node,
-        title: data[data.findIndex(x => x.link === node)].title,
-        keywords: data[data.findIndex(x => x.link === node)].keywords
+        title: Storage[Storage.findIndex(x => x.link === node)].title,
+        keywords: Storage[Storage.findIndex(x => x.link === node)].keywords
       }
     }).slice(0, -1);
 
     setRootIndex(index);
-    setRootNode(data[index]);
+    setRootNode(Storage[index]);
     setNeighbors(nodes);
   }
 

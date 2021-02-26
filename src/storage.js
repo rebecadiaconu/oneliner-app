@@ -2,9 +2,9 @@
 const {Storage} = require('@google-cloud/storage');
 const storage = new Storage();
 
-exports.readFile() = () => {
+function readFile() {
     console.log('Reading File');
-    var archivo = storage.bucket('data_for_app').file('data.json').createReadStream();
+    var archivo = storage.bucket('data_for_app').file('inputs.json').createReadStream();
     console.log('Concat Data');
     var  buf = '';
     archivo.on('data', function(d) {
@@ -12,4 +12,9 @@ exports.readFile() = () => {
     }).on('end', function() {
         res = JSON.parse(buf);
     });
+
+    console.log(archivo);
+    return archivo;
 }
+
+readFile();

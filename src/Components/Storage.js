@@ -1,4 +1,5 @@
-[{
+const Storage = [
+    {
     "link":"https://www.db.com/",
     "ramuri":[
        "https://www.db.com/media",
@@ -18,7 +19,8 @@
        "2020 Banks"
     ],
     "summary":"Deutsche Bank announces 1 billion euros profit before tax in 2020 Banks and fintechs: partners or competitors? Financial releases, reports and calendar What Next Digital Disruption Jim Reid talks to Nigel Wilson, CEO, Legal & General Recent research about the pandemic and its consequences Thought leadership platform for corporate clients Deutsche Bank's standards of behaviour and conduct Deutsche Bank's numerous climate-related activities The world is changing, and so are we."
- },{
+ },
+ {
     "link":"https://www.db.com/media",
     "ramuri":[
        "https://www.db.com/logins",
@@ -674,4 +676,7 @@
     ],
     "summary":"Ralf is promoting multi-cultural educationto inform decision making. Melvyn is making partnerships that matter. Sarah's tackling gender inequality for the next generation Build tomorrows bank, today Sandhya looks to gain new knowledge wherever she goes Ralf is promoting multi-cultural education to inform decision making. No matter what role youre doing, or where you do it, youll bring your perspective and use your skills to drive change. Explore the opportunities available to find out where you can make an impact. For Queenie, having a diverse network and an open-mind have been a critical part of her success in carving out the early part of her career. Read here how closely legal experts and product developers work together. Find out how a career path not only opens up new countries and tasks, but also new horizons. Last Update: February 16, 2021 Copyright 2021 Deutsche Bank AG, Frankfurt am Main"
  }
- ]
+ ];
+
+
+ export default Storage;
