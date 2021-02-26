@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hack-rawoutsiders",
+  "private_key_id": "0ee2b81c0a348d08cbde4621f4d11474262edf7f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCaO5/WNnnUUMSq\ngGJVEXKFwVSi/cfqAlAHdPhUPsIePzmCdY5/V0d2IK80EwAnERb+lBulwN5fVogP\nDK+smy4OYtPw8OGoOE5p+RMSTEBiMGDKK5Q4L1+xpROsaZxVA9UgzksZXEAbrRED\nExwfUP1Kq/P2xRMMhLWvGtQrDOFnXRjBFD/ONT8t16mVy1JSGvLPV3GuJcjCgZdZ\nC5XHSxRleYX5CRVKrBlBa5qISMxcU/swkPWM7QDzFUsi3P+YvnBbP6KzAos1VK3g\nH4OFLoBi2Lv58Te/lcX1svh9sagTZIRhETjspjJ/ChaqAd5ztEpxrYMs1ZHY49y3\no8W4ijBjAgMBAAECggEAJbr9XJmiDysdGXrj01y7z/XePytnWxtquZBHadCai2y7\nJGueyw8ud7sCMXKOgIAhSHEyHEgE/ny8NzZKyaaCy1ko8RH0mkMAB9O7cyf9PigI\nnZywm1gXiG1SVUTWzkNsQaTF4XPcaQjbFw33PMAC3uAXBCDtCoxyp94f1lJF2BOg\nfv0YtDG2XdNiHQ9T3Xuc0RKRk4/WDu+dVeRJQ3chxBwOYCc4CRyqls+BOAdMbwUn\n4aWjTWJV0H+RlVQE7raLW5oxF6lfjxIRXROV7XAxK8vnK/eoCXB48lUWaYFgqcYb\nukZfHy1WyYUT9GCSbUOM1lgz1IikX8Qj7o+r2MsnZQKBgQDOUgoUDH4G2CwyRvan\n1aXqXo9lZS+sRCCBisru3QjBwSpYjh5EsfN3sfZaSeSlPQcYVrgARycQARESeKDD\natlavfA+DCj3TBwE40VF5tSN0YK/p5VRZlKp+VGip7ChpFDpHsksJeS7A6F/xGLV\nwlYdPNgZCctJe39pi7AH2C6p/wKBgQC/XtCxTgYnnbILr/x/jWpCEIXWCoWHshBA\nxjgLAwCi9G/3kE3FU3+jv5EZERdJGqkLZVDeChWRelt/rrBIfppxYr+P7RuVjHCU\nXwu9dmYKjRpxbg62Z4+akFnh7QhX9DGgH3Zr3tXftGILC7YgTbLd7+Se9C0BcDfJ\nEu/xYV4RnQKBgCiMVw65pcsSkR0QdUlm48S78NKsoEHq4biT3m4zYpUxsXDV/Xzi\nvEa54wC7pQQUimBuKptjYHn0u7Y1nuLJDQ6YZa7MFQEFJDyRrfue8gctNdUUynPE\n+FoPdcvRyRT7hitKsZ7Lk7htbj/+CK6aEvKMEqxZEGrQqqnDmkTwZ7thAoGBAL14\n69lQrglVOe4WbUIAyr7kSw5z1mdWpn7rgptsepncuGr9RfLkTBDdX5TY9hwcOFif\nFGTyyQ4Dfko5tDHin5k5sv6WPORhaymLvTz11+wEbrT1yb1RZb4bw9JLdCJZFTU7\nUW1V8J2PpC7ZhpYPN9RDazDyAwlUiPcdN9HenFuFAoGBAMo+76VDZQI+/I1egkNg\n6rRAOjUcbZ7MjEM8WhhBMNg4vqTDQzGeDONiQ35IME+SwMW/CEw0BERns08p38Rn\n0wm9ZwYjDzvqCpml8PMXjErJUmdNlHy8pfnWpSRoxRVAOnxemQ8YT6Lt5SC5DaYb\n8Q/iuRX5mRMjojZ7tC9F7n9M\n-----END PRIVATE KEY-----\n",
+  "client_email": "preluare@hack-rawoutsiders.iam.gserviceaccount.com",
+  "client_id": "115914045050026698123",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/preluare%40hack-rawoutsiders.iam.gserviceaccount.com"
+}
